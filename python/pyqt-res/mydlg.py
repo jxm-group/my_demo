@@ -9,7 +9,7 @@
 @contact : jiang_xmin@massclouds.com
 @site    : http://blog.csdn.net/jxm_csdn
 @software: PyCharm
-@file    : mydlog.py.py
+@file    : mydlg.py.py
 @time    : 16-7-3 下午4:17
 """
 
