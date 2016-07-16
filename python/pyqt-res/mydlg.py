@@ -21,7 +21,7 @@ import res                                     # 导入资源文件 *****
 class MyDlg(QDialog):
     def __init__(self):
         super(MyDlg, self).__init__()
-        uic.loadUi("mydlg.ui", self)            #  加载ui文件  *****
+        uic.loadUi("./mydlg.ui", self)            #  加载ui文件  *****
 
         self.setGeometry(50,50,800,600)
         self.setAutoFillBackground(True)
