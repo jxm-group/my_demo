@@ -1,0 +1,5 @@
+显示器输出列表：xrandr | grep ' connected ' | sed "s/ connected .*$//g"
+
+分辨率列表： xrandr | grep "^  .*x" | sed  "s/^\ \ \ //g" | sed "s/\ .*$//"
+
+xrandr | grep -v "disconnected"  |grep -v "Screen"  |  grep " .*x" | sed "s/^\ \ \ //g" | sed "s/\ connected\ */--/g" | sed "s/primary //g" | sed "s/\ .*$//"
